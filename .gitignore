@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+/vendor/
+
+# Production build
+/frontend/build/
+/frontend/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Testing
+/coverage
+.nyc_output
+
+# PHP specific
+/vendor/
+composer.lock
+*.log
+*.cache
+.phpunit.result.cache
+
+# Frontend specific
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/coverage/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage/
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Backend specific
+/backend/vendor/
+/backend/.env
+/backend/*.log
+/backend/phpunit.xml
+/backend/phpunit.result.cache 
